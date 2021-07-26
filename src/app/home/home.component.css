@@ -1,0 +1,45 @@
+.bg {
+  background-image: url("https://i.pinimg.com/originals/ea/3f/d3/ea3fd3102ccf575e3c33954f73eab78d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 18%;
+  margin-left: 6%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text {
+  color: white;
+
+  font-size: 1.2vw;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  color: silver;
+}
+
+li {
+  margin-bottom: 5%;
+  font-size: 1vw;
+}
+
+.fa {
+  padding: 6%;
+  font-size: 1.5vw;
+}

@@ -1,0 +1,96 @@
+/*img {
+  width: 100%;
+  height: auto;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}*/
+
+.bg {
+  background-image: url("https://thamar.nl/wp-content/uploads/2015/11/Frits_20151013_autumn20150003.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-text {
+  /* background-color: rgb(0,0,0); /* Fallback color */
+  /*background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: beige;
+  top: 40%;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+  font-size: 6.5vw;
+  font-family: Bangers;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-left: 4.5%;
+}
+
+.fa {
+  font-size: 3vw;
+  margin-left: 23%;
+}
+
+.text {
+  color: darkred;
+  font-size: 2vw;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: 13%;
+}
+
+.sec {
+  background-image: url("https://media.istockphoto.com/photos/white-studio-background-picture-id1040250650?k=6&m=1040250650&s=612x612&w=0&h=Ve0znmMwCbVyo66uIfeSrSYRuHau85oBiVIv1OplATs=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.btn {
+  float: right;
+  background-color: snow;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: silver;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-body:hover {
+  background-color: khaki;
+}
+
+.view {
+  background-image: url("https://static9.depositphotos.com/1000112/1234/i/450/depositphotos_12342370-Light-wood-texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.form-control:hover {
+  box-shadow: 10px 10px 5px grey;
+}
+
+.testimonial_subtitle {
+  color: #0aaa7a;
+  font-size: 12px;
+}
+.testimonial_btn {
+  background-color: #373d4b !important;
+  color: #fff !important;
+}
+.seprator {
+  height: 2px;
+  width: 56px;
+  background-color: #0aaa7a;
+  margin: 7px 0 10px 0;
+}

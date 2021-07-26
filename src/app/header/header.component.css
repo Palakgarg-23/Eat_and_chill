@@ -1,0 +1,61 @@
+.navbar {
+  min-height: 70px;
+  justify-items: right;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+
+.navbar-brand {
+  font-family: Fjalla One;
+  color: white;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.navbar-text {
+  font-size: 40px;
+  color: white;
+  position: left;
+  font-family: Marko One;
+  margin-left: 4%;
+  margin-right: 3%;
+}
+
+.nav-link {
+  color: white;
+}
+/* navbartext color*/
+
+.nav-item {
+  position: relative;
+  padding: 5%;
+}
+
+.navbar-center {
+  position: relative;
+  left: 20%;
+}
+/* navbartext position*/
+
+.active {
+  text-decoration: underline;
+  color: darkred;
+}
+
+/*navbartext color while activelink*/
+
+a:hover {
+  color: darkred;
+}
+/*linkcolor during hovering*/
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.badge {
+  margin-left: 5%;
+  margin-top: 5%;
+}

@@ -1,0 +1,24 @@
+.bg {
+  background-image: url("https://i.pinimg.com/originals/25/27/bd/2527bd3e3997e00a69a0dbc7677e4bc7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*
+ https://dosaking.net/wp-content/uploads/2014/05/dosa-king-bangkok-banner.jpg*/
+
+.view {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/white/white-radial-gradient-a5802da1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.form-control:hover {
+  box-shadow: 10px 10px 5px grey;
+}
+
+.btn {
+  float: right;
+}

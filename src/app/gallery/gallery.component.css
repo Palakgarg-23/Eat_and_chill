@@ -1,0 +1,89 @@
+.bg {
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952508_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.view {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-white-texture-light-background-image_202901.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.navb {
+  background-image: url("https://img.freepik.com/free-photo/abstract-black-textured-background_89245-580.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.column {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+img:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 10px 5px grey;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-family: "Alex Brush";
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 40.2px;
+}
+
+.navbar {
+  min-height: 40px;
+  justify-items: center;
+  background-color: rgba(10, 10, 10, 0.25);
+}
+
+.navbar-brand {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.navbar-text {
+  font-size: 40px;
+  color: white;
+  position: center;
+  font-family: cursive;
+  margin-left: 4%;
+  margin-right: 3%;
+}
+
+.nav-item {
+  position: relative;
+  padding: 10%;
+}
+
+.navbar-center {
+  position: relative;
+  left: 45%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

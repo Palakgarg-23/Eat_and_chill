@@ -1,0 +1,61 @@
+.bg {
+  background-image: url("https://www.bookhubpublishing.com/wp-content/uploads/revslider/the7-book-header/bg-slider-book.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.view {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-white-texture-light-background-image_202901.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.column {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  float: left;
+  width: 15%;
+  padding: 10px;
+  position: relative;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 300px;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.column:hover .overlay {
+  opacity: 1;
+}
+.column p {
+  width: 100%;
+  margin-left: 75px;
+  font-family: Marko One;
+}
